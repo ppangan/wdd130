@@ -1,12 +1,33 @@
+/* Navigation styling required by audit */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-decoration: none;
+}
+
 /* Limit the width of the main element */
 main {
     max-width: 840px;
+}
+
+/* H1 color required by audit */
+h1 {
+    color: #2c3e50;
 }
 
 /* Style for the profile image inside main */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Style for the sidebar / aside element */
