@@ -44,3 +44,42 @@ article {
 .socialmedia a {
     text-decoration: none;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(29, 45, 68, 0.78);
+    color: #ffffff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(244, 241, 234, 0.92);
+    color: var(--accent1-color);
+    border-radius: 6px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 16px;
+    border-radius: 4px;
+}
