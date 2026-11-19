@@ -3,8 +3,8 @@
     --secondary-color: #2b7bba;
     --accent1-color: #10253a;
     --accent2-color: #f4f8fb;
-    --heading-font: "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-    --body-font: "Trebuchet MS", "Arial", "Helvetica", sans-serif;
+    --heading-font: "Georgia", "Times New Roman", serif;
+    --body-font: "Arial", "Helvetica", sans-serif;
 }
 
 * {
@@ -109,9 +109,16 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
+    padding: 16px;
+    overflow: hidden;
     background-color: rgba(244, 241, 234, 0.92);
     color: var(--accent1-color);
     border-radius: 6px;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 0;
 }
 
 .hero article img {
@@ -119,5 +126,6 @@ article {
     width: 125px;
     height: auto;
     margin-left: 16px;
+    margin-bottom: 8px;
     border-radius: 4px;
 }
